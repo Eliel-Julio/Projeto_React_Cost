@@ -4,16 +4,16 @@ import Company from './components/pages/Company';
 import Contatos from './components/pages/contatos';
 import NewProjct from './components/pages/NewProjct';
 
-import Container from './layout/Container';
-import Footer from './layout/Footer';
-import NavBar from './layout/NavBar';
+import Container from './components/layout/Container';
+import Footer from './components/layout/Footer';
+import NavBar from './components/layout/NavBar';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <NavBar />
-        <Container>
+        <Container customClass="MinHeight">
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/Company" element={<Company />} />

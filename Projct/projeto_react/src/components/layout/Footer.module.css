@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+.footer{
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    padding: 1.3em;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+
+.social_list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    li{
+        a{
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            &:hover{
+                color: #ffbb33;
+            }
+        }
+    }
+}
+
+.copy_right{
+    padding: 0;
+
+}

@@ -1,18 +1,19 @@
 @charset "utf-8";
 
 .Container{
-    width: 1200px;
+    width: 95vw;
     display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
+    justify-content: center;
+    margin: 0;
     flex-wrap: wrap;
+    
     h1{
-        color: brown;
+        color: #535353;
     }
 }
 
-.MinHeight{
-    min-height: 75%;
+.MinHeight{ 
+    min-height: 60vh;
 }
 
 .start{

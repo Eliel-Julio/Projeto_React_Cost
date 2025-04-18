@@ -2,7 +2,7 @@ import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 
 import Container from './Container';
 import Styles from './NavBar.module.css';
-import logo from '../img/logo.png';
+import logo from '../../img/logo.png';
 
 
 function NavBar(){
