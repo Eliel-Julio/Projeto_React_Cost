@@ -1,4 +1,4 @@
-import styles from './NewProjct.module.css'
+import styles from "./NewProjct.module.css"
 import Form from '../project/Form'
 
 function NewProjct(){

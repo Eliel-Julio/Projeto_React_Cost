@@ -3,8 +3,8 @@
 .Container{
     width: 95vw;
     display: flex;
-    justify-content: center;
-    margin: 0;
+    /* justify-content: center; */
+    margin: 0 20px;
     flex-wrap: wrap;
     
     h1{

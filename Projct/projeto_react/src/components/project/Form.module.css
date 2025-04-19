@@ -3,14 +3,33 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: auto;
     h1{
         font-size: 2.5em;
         color: #535353;
 
     }
-    input{
-        height: 40px;
+    label{
+        font-size: 1.2em;
+        color: #535353;
+    }
+    input, select{
+        height: 40px;width: 220px;
         border-radius: 2px;
         border: 1px solid #53535340;
+        &.submit{    
+            margin-top: 1em;
+            padding: 0.5em 2em;
+            background-color: #535353;
+            color: white;
+            border-radius: 2px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.5s ease;
+            &:hover{
+                background-color: #53535390;
+                color: black;
+            }
+        }
     }
 }   
